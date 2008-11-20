@@ -1,4 +1,3 @@
-# TODO: create a file to %exampledir (the solution above doesn't work)
 %define pdfdir http://media.texample.net/tikz/examples/PDF
 %define texdir http://media.texample.net/tikz/examples/TEX
 Summary:	TikZ examples
@@ -182,8 +181,8 @@ TeXample.net is a web site dedicated to the wonderful world of TeX and friends.
 The site is still under heavily construction, so sorry for all the mess.
 Content, features and design will be added gradually.
 EOF
-)
-> $RPM_BUILD_ROOT%{_exampledir}/README
+) > $RPM_BUILD_ROOT%{_exampledir}/README
+
 # chemistry
 install -d $RPM_BUILD_ROOT%{_exampledir}/chemistry
 install %{SOURCE0} %{SOURCE1} %{SOURCE2} %{SOURCE3} $RPM_BUILD_ROOT%{_exampledir}/chemistry
