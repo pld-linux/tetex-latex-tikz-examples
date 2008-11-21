@@ -127,8 +127,8 @@ Summary:	TikZ electrical engineering examples
 Summary(hu.UTF-8):	TikZ elektronikai példák
 Group:		Applications/Publishing/TeX
 # need to compile
-Suggests:	tetex-tex-xkeyval
 Suggests:	tetex-latex-circuitikz
+Suggests:	tetex-tex-xkeyval
 
 %description electrical
 TikZ electrical engineering examples
