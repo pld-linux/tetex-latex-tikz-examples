@@ -4,7 +4,7 @@ Summary:	TikZ examples
 Summary(hu.UTF-8):	TikZ példák
 Name:		tetex-latex-tikz-examples
 Version:	20081120
-Release:	1
+Release:	1.1
 License:	LaTeX Project Public License
 Group:		Applications/Publishing/TeX
 URL:		http://www.texample.net/tikz/examples/
@@ -126,6 +126,9 @@ TikZ számítógép-tudományi példák
 Summary:	TikZ electrical engineering examples
 Summary(hu.UTF-8):	TikZ elektronikai példák
 Group:		Applications/Publishing/TeX
+# need to compile
+Suggests:	tetex-tex-xkeyval
+Suggests:	tetex-latex-circuitikz
 
 %description electrical
 TikZ electrical engineering examples
