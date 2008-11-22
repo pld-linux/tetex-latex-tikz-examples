@@ -87,6 +87,8 @@ Source69:	%{texdir}/box-and-whisker-plot.tex
 Source70:	%{pdfdir}/standard-deviation.pdf
 Source71:	%{texdir}/standard-deviation.tex
 Requires:	tetex-latex
+# 2.00 is required so please don't delete it!
+Requires:	tetex-pgf >= 2.00
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define _exampledir %{_datadir}/texmf/doc/latex/tikz/examples
@@ -102,6 +104,7 @@ TikZ példák.
 Summary:	TikZ chemistry examples
 Summary(hu.UTF-8):	TikZ kémiai példák
 Group:		Applications/Publishing/TeX
+Suggests:	tetex-latex-mhchem
 
 %description chemistry
 TikZ chemistry examples
@@ -114,6 +117,9 @@ TikZ kémiai példák
 Summary:	TikZ computer science examples
 Summary(hu.UTF-8):	TikZ számítógép-tudományi példák
 Group:		Applications/Publishing/TeX
+Suggests:	tetex-latex-beamer
+Suggests:	tetex-latex-pgf-umlsd
+Suggests:	tetex-latex-tikz-inet
 
 %description computer
 TikZ computer science examples
@@ -128,6 +134,7 @@ Summary(hu.UTF-8):	TikZ elektronikai példák
 Group:		Applications/Publishing/TeX
 # need to compile
 Suggests:	tetex-latex-circuitikz
+Suggests:	tetex-latex-electcomp
 Suggests:	tetex-tex-xkeyval
 
 %description electrical
@@ -153,6 +160,7 @@ TikZ matematikai példák
 Summary:	TikZ physics examples
 Summary(hu.UTF-8):	TikZ fizikai példák
 Group:		Applications/Publishing/TeX
+Suggests:	tetex-latex-beamer
 
 %description physics
 TikZ physics examples
