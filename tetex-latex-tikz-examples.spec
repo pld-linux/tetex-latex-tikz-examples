@@ -1,3 +1,4 @@
+# TODO: there are many examples outside "Technical Areas"
 %define pdfdir http://media.texample.net/tikz/examples/PDF
 %define texdir http://media.texample.net/tikz/examples/TEX
 Summary:	TikZ examples
@@ -33,59 +34,63 @@ Source19:	%{texdir}/timing-diagram.tex
 Source20:	%{pdfdir}/pgf-umlsd.pdf
 Source21:	%{texdir}/pgf-umlsd.tex
 # electrical
-Source22:	%{pdfdir}/circuitikz.pdf
-Source23:	%{texdir}/circuitikz.tex
-Source24:	%{pdfdir}/control-system-principles.pdf
-Source25:	%{texdir}/control-system-principles.tex
-Source26:	%{pdfdir}/circuit-decorations.pdf
-Source27:	%{texdir}/circuit-decorations.tex
-Source28:	%{pdfdir}/FIR-filter.pdf
-Source29:	%{texdir}/FIR-filter.tex
-Source30:	%{pdfdir}/logic-circuits-library.pdf
-Source31:	%{texdir}/logic-circuits-library.tex
-Source32:	%{pdfdir}/radix2fft.pdf
-Source33:	%{texdir}/radix2fft.tex
-Source34:	%{pdfdir}/schemabloc.pdf
-Source35:	%{texdir}/schemabloc.tex
-Source36:	%{pdfdir}/signal-flow-building-blocks.pdf
-Source37:	%{texdir}/signal-flow-building-blocks.tex
-Source38:	%{pdfdir}/simple-circuit-schematics-symbols.pdf
-Source39:	%{texdir}/simple-circuit-schematics-symbols.tex
+Source100:	%{pdfdir}/circuitikz.pdf
+Source101:	%{texdir}/circuitikz.tex
+Source102:	%{pdfdir}/control-system-principles.pdf
+Source103:	%{texdir}/control-system-principles.tex
+Source104:	%{pdfdir}/circuit-decorations.pdf
+Source105:	%{texdir}/circuit-decorations.tex
+Source106:	%{pdfdir}/FIR-filter.pdf
+Source107:	%{texdir}/FIR-filter.tex
+Source108:	%{pdfdir}/logic-circuits-library.pdf
+Source109:	%{texdir}/logic-circuits-library.tex
+Source110:	%{pdfdir}/radix2fft.pdf
+Source111:	%{texdir}/radix2fft.tex
+Source112:	%{pdfdir}/schemabloc.pdf
+Source113:	%{texdir}/schemabloc.tex
+Source114:	%{pdfdir}/signal-flow-building-blocks.pdf
+Source115:	%{texdir}/signal-flow-building-blocks.tex
+Source116:	%{pdfdir}/simple-circuit-schematics-symbols.pdf
+Source117:	%{texdir}/simple-circuit-schematics-symbols.tex
 # mathematics
-Source40:	%{pdfdir}/animated-set-intersection.pdf
-Source41:	%{texdir}/animated-set-intersection.tex
-Source42:	%{pdfdir}/tutorial.pdf
-Source43:	%{texdir}/tutorial.tex
-Source44:	%{pdfdir}/hilbert-curve.pdf
-Source45:	%{texdir}/hilbert-curve.tex
-Source46:	%{pdfdir}/parallel-lines.pdf
-Source47:	%{texdir}/parallel-lines.tex
-Source48:	%{pdfdir}/polygon-division.pdf
-Source49:	%{texdir}/polygon-division.tex
-Source50:	%{pdfdir}/sign-diagram.pdf
-Source51:	%{texdir}/sign-diagram.tex
-Source52:	%{pdfdir}/star-graph.pdf
-Source53:	%{texdir}/star-graph.tex
+Source200:	%{pdfdir}/animated-set-intersection.pdf
+Source201:	%{texdir}/animated-set-intersection.tex
+Source202:	%{pdfdir}/tutorial.pdf
+Source203:	%{texdir}/tutorial.tex
+Source204:	%{pdfdir}/hilbert-curve.pdf
+Source205:	%{texdir}/hilbert-curve.tex
+Source206:	%{pdfdir}/parallel-lines.pdf
+Source207:	%{texdir}/parallel-lines.tex
+Source208:	%{pdfdir}/polygon-division.pdf
+Source209:	%{texdir}/polygon-division.tex
+Source210:	%{pdfdir}/sign-diagram.pdf
+Source211:	%{texdir}/sign-diagram.tex
+Source212:	%{pdfdir}/star-graph.pdf
+Source213:	%{texdir}/star-graph.tex
+Source214:	%{pdfdir}/lune-of-hippocrates.pdf
+Source215:	%{texdir}/lune-of-hippocrates.tex
+Source216:	%{pdfdir}/tkz-2d.pdf
+Source217:	%{texdir}/tkz-2d.tex
 # physics
-Source54:	%{pdfdir}/beamer-arrows.pdf
-Source55:	%{texdir}/beamer-arrows.tex
-Source56:	%{pdfdir}/feynman-diagram.pdf
-Source57:	%{texdir}/feynman-diagram.tex
-Source58:	%{pdfdir}/free-body-diagrams.pdf
-Source59:	%{texdir}/free-body-diagrams.tex
-Source60:	%{pdfdir}/gamma-interaction.pdf
-Source61:	%{texdir}/gamma-interaction.tex
-Source62:	%{pdfdir}/global-nodes.pdf
-Source63:	%{texdir}/global-nodes.tex
-Source64:	%{pdfdir}/oblique-incidence.pdf
-Source65:	%{texdir}/oblique-incidence.tex
+Source300:	%{pdfdir}/beamer-arrows.pdf
+Source301:	%{texdir}/beamer-arrows.tex
+Source302:	%{pdfdir}/feynman-diagram.pdf
+Source303:	%{texdir}/feynman-diagram.tex
+Source304:	%{pdfdir}/free-body-diagrams.pdf
+Source305:	%{texdir}/free-body-diagrams.tex
+Source306:	%{pdfdir}/gamma-interaction.pdf
+Source307:	%{texdir}/gamma-interaction.tex
+Source308:	%{pdfdir}/global-nodes.pdf
+Source309:	%{texdir}/global-nodes.tex
+Source310:	%{pdfdir}/oblique-incidence.pdf
+Source311:	%{texdir}/oblique-incidence.tex
 # statistics
-Source66:	%{pdfdir}/animated-distributions.pdf
-Source67:	%{texdir}/animated-distributions.tex
-Source68:	%{pdfdir}/box-and-whisker-plot.pdf
-Source69:	%{texdir}/box-and-whisker-plot.tex
-Source70:	%{pdfdir}/standard-deviation.pdf
-Source71:	%{texdir}/standard-deviation.tex
+Source400:	%{pdfdir}/animated-distributions.pdf
+Source401:	%{texdir}/animated-distributions.tex
+Source402:	%{pdfdir}/box-and-whisker-plot.pdf
+Source403:	%{texdir}/box-and-whisker-plot.tex
+Source404:	%{pdfdir}/standard-deviation.pdf
+Source405:	%{texdir}/standard-deviation.tex
 Requires:	tetex-latex
 # 2.00 is required so please don't delete it!
 Requires:	tetex-pgf >= 2.00
@@ -205,24 +210,24 @@ install %{SOURCE4} %{SOURCE5} %{SOURCE6} %{SOURCE7} %{SOURCE8} %{SOURCE9} \
 	$RPM_BUILD_ROOT%{_exampledir}/computer
 # electrical
 install -d $RPM_BUILD_ROOT%{_exampledir}/electrical
-install %{SOURCE22} %{SOURCE23} %{SOURCE24} %{SOURCE25} %{SOURCE26} %{SOURCE27} \
-	%{SOURCE28} %{SOURCE29} %{SOURCE30} %{SOURCE31} %{SOURCE32} %{SOURCE33} \
-	%{SOURCE34} %{SOURCE35} %{SOURCE36} %{SOURCE37} %{SOURCE38} %{SOURCE39} \
+install %{SOURCE100} %{SOURCE101} %{SOURCE102} %{SOURCE103} %{SOURCE104} %{SOURCE105} \
+	%{SOURCE106} %{SOURCE107} %{SOURCE108} %{SOURCE109} %{SOURCE110} %{SOURCE111} \
+	%{SOURCE112} %{SOURCE113} %{SOURCE114} %{SOURCE115} %{SOURCE116} %{SOURCE117} \
 	$RPM_BUILD_ROOT%{_exampledir}/electrical
 # mathematics
 install -d $RPM_BUILD_ROOT%{_exampledir}/mathematics
-install	%{SOURCE40} %{SOURCE41} %{SOURCE42} %{SOURCE43} %{SOURCE44} %{SOURCE45} \
-	%{SOURCE46} %{SOURCE47} %{SOURCE48} %{SOURCE49} %{SOURCE50} %{SOURCE51} \
-	%{SOURCE52} %{SOURCE53} \
+install	%{SOURCE200} %{SOURCE201} %{SOURCE202} %{SOURCE203} %{SOURCE204} %{SOURCE205} \
+	%{SOURCE206} %{SOURCE207} %{SOURCE208} %{SOURCE209} %{SOURCE210} %{SOURCE211} \
+	%{SOURCE212} %{SOURCE213} %{SOURCE214} %{SOURCE215} %{SOURCE216} %{SOURCE217} \
 	$RPM_BUILD_ROOT%{_exampledir}/mathematics
 # physics
 install -d $RPM_BUILD_ROOT%{_exampledir}/physics
-install	%{SOURCE54} %{SOURCE55} %{SOURCE56} %{SOURCE57} %{SOURCE58} %{SOURCE59} \
-	%{SOURCE60} %{SOURCE61} %{SOURCE62} %{SOURCE63} %{SOURCE64} %{SOURCE65} \
+install	%{SOURCE300} %{SOURCE301} %{SOURCE302} %{SOURCE303} %{SOURCE304} %{SOURCE305} \
+	%{SOURCE306} %{SOURCE307} %{SOURCE308} %{SOURCE309} %{SOURCE310} %{SOURCE311} \
 	$RPM_BUILD_ROOT%{_exampledir}/physics
 # statistics
 install -d $RPM_BUILD_ROOT%{_exampledir}/statistics
-install	%{SOURCE66} %{SOURCE67} %{SOURCE68} %{SOURCE69} %{SOURCE70} %{SOURCE71} \
+install	%{SOURCE400} %{SOURCE401} %{SOURCE402} %{SOURCE403} %{SOURCE404} %{SOURCE405} \
 	$RPM_BUILD_ROOT%{_exampledir}/statistics
 
 %clean
