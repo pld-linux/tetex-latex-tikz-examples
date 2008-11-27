@@ -70,10 +70,10 @@ Source104:	%{pdfdir}/circuit-decorations.pdf
 # Source104-md5:	ddc84aecf28399a30bb1c54149ca34d9
 Source105:	%{texdir}/circuit-decorations.tex
 # Source105-md5:	4cf2ee4ad9cb9b61fc4e707bb32bdc3a
-# Source106-md5:	13936932f0393c64f319182f7fb63e14
-# Source107-md5:	1b6d4322d69a49647b64a0d1eefa7c86
 Source106:	%{pdfdir}/FIR-filter.pdf
+# Source106-md5:	13936932f0393c64f319182f7fb63e14
 Source107:	%{texdir}/FIR-filter.tex
+# Source107-md5:	1b6d4322d69a49647b64a0d1eefa7c86
 Source108:	%{pdfdir}/logic-circuits-library.pdf
 # Source108-md5:	b5f0744300743f11a1d09cc90da12bc8
 Source109:	%{texdir}/logic-circuits-library.tex
