@@ -132,6 +132,10 @@ Source216:	%{pdfdir}/tkz-2d.pdf
 # Source216-md5:	c9654b32c7941f58682243a91b7df5d0
 Source217:	%{texdir}/tkz-2d.tex
 # Source217-md5:	2332d8bd1063045cfded3f74b34aad33
+Source218:	%{pdfdir}/pancake-network.pdf
+# Source218-md5:	00b99d4711e0042fe12e8cf78fd27c6e
+Source219:	%{texdir}/pancake-network.tex
+# Source219-md5:	f4c8cc46a5a7b09f64e06b8bbd18aa07
 
 # physics
 Source300:	%{pdfdir}/beamer-arrows.pdf
@@ -301,6 +305,7 @@ install -d $RPM_BUILD_ROOT%{_exampledir}/mathematics
 install	%{SOURCE200} %{SOURCE201} %{SOURCE202} %{SOURCE203} %{SOURCE204} %{SOURCE205} \
 	%{SOURCE206} %{SOURCE207} %{SOURCE208} %{SOURCE209} %{SOURCE210} %{SOURCE211} \
 	%{SOURCE212} %{SOURCE213} %{SOURCE214} %{SOURCE215} %{SOURCE216} %{SOURCE217} \
+	%{SOURCE218} %{SOURCE219} \
 	$RPM_BUILD_ROOT%{_exampledir}/mathematics
 # physics
 install -d $RPM_BUILD_ROOT%{_exampledir}/physics
